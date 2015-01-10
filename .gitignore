@@ -4,5 +4,8 @@ temp/*
 
 system/framework/android.policy.jar
 system/framework/services.jar
+system/priv-app/SystemUI/*
+
 build/
 dist/
+tmp/
