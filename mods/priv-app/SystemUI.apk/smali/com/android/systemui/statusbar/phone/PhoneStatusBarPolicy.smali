@@ -343,7 +343,13 @@
 .end method
 
 .method private updateAlarm()V
-    .locals 4
+    .locals 5
+
+    iget-object v0, p0, Lcom/android/systemui/statusbar/phone/PhoneStatusBarPolicy;->mContext:Landroid/content/Context;
+
+    invoke-static {v0}, Lcom/android/internal/policy/impl/RomUtils;->getHideAlarmIcon(Landroid/content/Context;)Z
+
+    move-result v4
 
     iget-object v2, p0, Lcom/android/systemui/statusbar/phone/PhoneStatusBarPolicy;->mContext:Landroid/content/Context;
 

@@ -10198,11 +10198,9 @@
 
     invoke-direct {p0}, Lcom/android/server/InputMethodManagerService;->updateImeWindowStatusLocked()V
 
-    iget-object v1, p0, Lcom/android/server/InputMethodManagerService;->mRes:Landroid/content/res/Resources;
+    iget-object v1, p0, Lcom/android/server/InputMethodManagerService;->mContext:Landroid/content/Context;
 
-    const v5, 0x1120008
-
-    invoke-virtual {v1, v5}, Landroid/content/res/Resources;->getBoolean(I)Z
+    invoke-static {v1}, Lcom/android/internal/policy/impl/RomUtils;->showImeSwitcher(Landroid/content/Context;)Z
 
     move-result v1
 

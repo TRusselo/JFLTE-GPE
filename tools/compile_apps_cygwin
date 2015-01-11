@@ -16,6 +16,8 @@ if [ -d framework ]; then
 	cd ..
 fi
 
+../tools/apktool_cygwin if ../system/framework/framework-res.apk
+
 if [ -d app ]; then
 	cd app
 	for f in *

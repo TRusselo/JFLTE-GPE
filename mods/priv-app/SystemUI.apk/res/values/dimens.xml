@@ -121,7 +121,7 @@
     <dimen name="keyguard_clock_notifications_margin_min">24.0dip</dimen>
     <dimen name="keyguard_clock_notifications_margin_max">36.0dip</dimen>
     <dimen name="heads_up_window_height">250.0dip</dimen>
-    <dimen name="keyguard_min_swipe_amount">90.0dip</dimen>
+    <dimen name="keyguard_min_swipe_amount">110.0dip</dimen>
     <dimen name="keyguard_affordance_min_background_radius">30.0dip</dimen>
     <dimen name="hint_grow_amount_sideways">60.0dip</dimen>
     <dimen name="hint_chevron_circle_padding">16.0dip</dimen>
@@ -155,7 +155,7 @@
     <dimen name="battery_level_padding_end">2.0dip</dimen>
     <dimen name="clear_all_padding_top">12.0dip</dimen>
     <dimen name="max_avatar_size">48.0dip</dimen>
-    <dimen name="keyguard_carrier_text_margin">16.0dip</dimen>
+    <dimen name="keyguard_carrier_text_margin">10.0dip</dimen>
     <dimen name="header_battery_margin_expanded">6.0dip</dimen>
     <dimen name="header_battery_margin_keyguard">6.0dip</dimen>
     <dimen name="system_icons_keyguard_padding_end">4.0dip</dimen>
@@ -266,4 +266,6 @@
     <dimen name="disappear_y_translation">-32.0dip</dimen>
     <dimen name="sim_card_name_maxwidth">100.0dip</dimen>
     <dimen name="sim_card_name_padding">6.0dip</dimen>
+    <dimen name="net_traffic_single_text_size">12.0dip</dimen>
+    <dimen name="net_traffic_multi_text_size">9.0dip</dimen>
 </resources>

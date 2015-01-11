@@ -4,8 +4,13 @@ temp/*
 
 system/framework/android.policy.jar
 system/framework/services.jar
+system/framework/framework-res.apk
 system/priv-app/SystemUI/*
 
 build/
 dist/
 tmp/
+
+tools/bin/.JavaPATH
+*.JavaPATH
+tools/bin/.JavaPATH
