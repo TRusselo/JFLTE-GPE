@@ -4,18 +4,26 @@ Visit https://github.com/Kryten2k35/JFLTE-GPE for full source
 
 Visit http://ultimarom.com for downloads
 
-### Changelog 20150117
+### Changelog 20150121
 * Fixed tethering and enabled bluetooth tethering for all carriers
 * Updated Google Search
 * Updated Google Play Services
-* Removed Gear Manager as it's not working
+* Updated AOSP Gallery
+* Updated Live walpapers
+* Updated the Inverted Teal phone/contacts app
+* Updated Interface app
+* Updated kernel to latest Googy 1.2.7
+* Updated SuperSU
 * Added volume panel timeout options
 * Added heads up timeout options
 * Added long press to skip tracks
 * Added hold back to kill current app
 * Added clock mods
-* Updated Interface app
-* Updated kernel to latest 1.2.7
+* Added CyanogenMOD browser option to AROMA
+* Added a choice in AROMA for Eleven and Apollo music players
+* Added AudioFX from CM12 to AROMA
+* Removed Gear Manager as it's not working
+* Live walpapers are now optional in AROMA
 * Updated build.prop
 
 ### Changelog 20150112
